@@ -30,6 +30,7 @@ body {
 
 main {
   display: block;
+  text-align: center;
 }
 
 /**
@@ -384,7 +385,7 @@ transform: translateY(-100%);
 
 div.menu {
   width: 100%;
-  background-color: #4d5791;
+  background-color: #1b9e33;
   height: 44px;
   padding: 0 40px;
 }
@@ -414,8 +415,8 @@ div.menu ul li a:hover  {
 
 div.hero {
   height: 350px;
-  background-color: #b4c6f0;
-  background-image: url('/bg.png');
+  background-color: #42f57e;
+  background-image: url('/budget.jpg');
   background-size: 400px;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -435,7 +436,7 @@ div.hero h1 {
 }
 
 div.hero h2 {
-  color: #4d5791;
+  color: #fff;
 }
 
 .container {
@@ -450,7 +451,7 @@ div.hero h2 {
 
 .bottom {
   height: 50px;
-  background-color: #b4c6f0;
+  background-color: #1b9e33;
   padding: 40px;
 }
 
@@ -459,11 +460,30 @@ div.hero h2 {
 }
 
 .container div.text-box {
+  font-size: 25px;
   display: inline-block;
   width: 100%;
   max-width: 340px;
   text-align: justify;
   margin: 20px;
+}
+
+.div.text-box{
+  font-size: 50;
+}
+
+.skip-to-content-link {
+  background: #b4c6f0;
+  color: #fff;
+  font-weight: 700;
+  left: 50%;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-100%);
+}
+
+.skip-to-content-link:focus{
+    transform: translateY(0%);
 }
 
 @media screen and (min-width: 768px) {

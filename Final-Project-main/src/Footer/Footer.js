@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="bottom">
     <div className="center">
-        All rights reserved &copy; Fabio Nolasco
+        All rights reserved &copy; Juan Cuartas
     </div>
 </div>
   );

@@ -5,7 +5,7 @@ function Hero() {
 
     <div className="hero">
         <h1>Personal Budget</h1>
-        <h2>A personal-budget management app</h2>
+        <h2>An App that helps you track your Spending and Money!</h2>
     </div>
 
   );
